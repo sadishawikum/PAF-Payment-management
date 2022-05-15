@@ -130,7 +130,7 @@ public class Payment {
         			 + paymentID + "'>" + "</td></tr>";
         } 
         con.close(); 
-        // Complete the html table
+       
         output += "</table>"; 
     } 
 	catch (Exception e) 
